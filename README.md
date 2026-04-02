@@ -350,7 +350,7 @@ dealdrop/
 │   └── migrations/
 │       ├── 001_schema.sql              # Database tables & RLS
 │       └── 002_setup_cron.sql          # Cron job setup
-├── proxy.ts                            # Next.js 15 proxy (replaces middleware)
+├── proxy.js                            # Next.js proxy (replaces middleware)
 └── .env.local                          # Environment variables
 ```
 
